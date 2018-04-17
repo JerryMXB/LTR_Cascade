@@ -12,7 +12,6 @@ the corpus type (whether it is Trec format or Warc format) only matters when bui
     cp data/config/config.sh.dist data/config/config.sh
     cp data/config/gov2.param.dist data/config/gov2.param
 
-
 Edit the local configuration files to set the path to my copy of the CW09B
 corpus.  Be sure to make the following changes:
 
@@ -21,6 +20,9 @@ corpus.  Be sure to make the following changes:
 *  In `gov2.param` replace `/BASEDIR` with the actual path to this repo and
    `/GOV2_CORPUS` to the CW09B corpus.  Note that in these param files the paths
    have to be *absolute*. Change class to Warc.
+
+*  In `/data/mksvm/Makefile` replace `/BASEDIR` with the actual path to this repo and
+  `/GOV2_CORPUS` to the CW09B corpus.
 
 
 Build the feature file:
