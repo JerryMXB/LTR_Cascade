@@ -1,6 +1,7 @@
-# config.sh
 #
-CORPUS_PATH := /research/remote/collections/TREC/gov2/gov2-corpus
+#config.sh
+#
+CORPUS_PATH := /CWeb09B/CW09B
 
 # common.sh
 #

@@ -1,5 +1,3 @@
-data/config/config.sh
-data/config/gov2.param
 data/config/pagerank.param
 data/mksvm/gov2_dump
 data/mksvm/gov2_indri
