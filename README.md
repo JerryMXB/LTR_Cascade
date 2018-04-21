@@ -24,6 +24,18 @@ If you use this package or theirs in your work, please cite the following paper:
 } 
 ```
 
+## AWS EC2 Setup ##
+All my experiments are done in AWS EC2, due to the fact that this package requires a real big memory and takes a long time to run.
+
+Install the C++ dependencies (Luckily AWS provides a really easy way to setup the environment)
+```
+sudo yum groupinstall "Development Tools"
+```
+
+Install Zlib-devel dependencies (Zlib does not work for unknown reason)
+```
+sudo yum install zlib-devel
+```
 
 ## Get Started ##
 
