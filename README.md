@@ -6,6 +6,8 @@ The first step of this project is to:
 - Analysis the running time of Gov2 experiment
 - Create an experiment on ClueWeb09B subset
 
+The LTR_Cascade package generates more than 400 features including gobal query/ doc features, unigram features and bigram features using 6 different ranking functions.
+
 My project forked form a reference implementation of the cascade ranking
 model in the SIGIR '17 paper "Efficient Cost-Aware Cascade Ranking for
 Multi-Stage Retrieval".
@@ -42,5 +44,6 @@ Other bash scripts and Makefiles under `experiments` should work out of the box.
 ## Ranking Experiments ##
 My recreating result and analysis can be found
 * [Gov2](experiments/Gov2/)
+
 Experiment on ClueWeb09B Subset
 * [StepByStep](experiments/StepByStep)
