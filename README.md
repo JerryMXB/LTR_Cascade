@@ -40,5 +40,7 @@ Other bash scripts and Makefiles under `experiments` should work out of the box.
 
 
 ## Ranking Experiments ##
+My recreating result and analysis can be found
 * [Gov2](experiments/Gov2/)
+Experiment on ClueWeb09B Subset
 * [StepByStep](experiments/StepByStep)
