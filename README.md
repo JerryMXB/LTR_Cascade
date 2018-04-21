@@ -1,6 +1,6 @@
 # LTR_Cascade #
 
-This repository is home to a reference implementation of the cascade ranking
+This repository is my project forked form a reference implementation of the cascade ranking
 model in the SIGIR '17 paper "Efficient Cost-Aware Cascade Ranking for
 Multi-Stage Retrieval".
 
