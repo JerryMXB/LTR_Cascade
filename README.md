@@ -1,11 +1,16 @@
-# LTR_Cascade #
+# Complex Ranker based on LTR_Cascade Package #
 
-This repository is my project forked form a reference implementation of the cascade ranking
+My project is to create a dataset of ranked documnets from a large number of queries which does not have judgements using learning-to-rank technology.
+The first step of this project is to:
+- Recreate the Gov2 experiment from LTR_Cascade
+- Analysis the running time of Gov2 experiment
+- Create an experiment on ClueWeb09B subset
+
+My project forked form a reference implementation of the cascade ranking
 model in the SIGIR '17 paper "Efficient Cost-Aware Cascade Ranking for
 Multi-Stage Retrieval".
 
-If you use this package in your work, please cite the following paper:
-
+If you use this package or theirs in your work, please cite the following paper:
 ```
 @inproceedings{chen_efficient_2017,
  author = {Chen, Ruey-Cheng and Gallagher, Luke and Blanco, Roi and Culpepper, J. Shane},
@@ -20,7 +25,7 @@ If you use this package in your work, please cite the following paper:
 
 ## Get Started ##
 
-To compile our feature processing binaries:
+To compile the feature processing binaries:
 
     ./init-script/build.sh
 
