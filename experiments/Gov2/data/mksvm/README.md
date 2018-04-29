@@ -27,7 +27,11 @@ output of time command:
 
 ## Detail running time of fgtrain
 Average 100ms to extract from one doc.
+
 A bunch of BM25s takes 50ms.
+
 Prox takes 16ms
+
 load_f_tpscore takes31 ms
+
 Other takes less than 1ms
