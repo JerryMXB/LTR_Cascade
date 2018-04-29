@@ -40,7 +40,7 @@ Other takes less than 1ms
 qid: 701 in prepare takes0 ms
 qid: 701 in BM takes46 ms
 qid: 701 in lmds takes0 ms
-qid: 701 in lmds takes0 ms
+qid: 701 in tfidf takes0 ms
 qid: 701 in prob takes0 ms
 qid: 701 in be_dph_dfr takes0 ms
 qid: 701 in stream takes0 ms
