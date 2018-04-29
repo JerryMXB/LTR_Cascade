@@ -1,15 +1,15 @@
 # Recreate Gov2 and Experiment
 
-# Analysis the running time of Gov2 Experiment
+## Analysis the running time of Gov2 Experiment
 
-## Original Experiment
+### Original Experiment
 output of time commmand:
 ```
 11287.98user 961.91system 3:28:50 elapsed 97%CPU
 ```
 For 10000 docs/ query, it takes 3 hours for 1 query
 
-## With every query-independent features pre-computed
+### With every query-independent features pre-computed
 output of time command:
 ```
 2559.26user 7118.11system 2:46:06elapsed 97%CPU
@@ -17,7 +17,7 @@ output of time command:
 150 query 166 minutes
 1.1 minutes per query.
 
-## Using concurrent script to run fgtrain
+### Using concurrent script to run fgtrain
 [Concurrent script](https://github.com/JerryMXB/LTR_Cascade/blob/master/experiments/Gov2/data/mksvm/fgtrain_parallel.sh)
 
 
