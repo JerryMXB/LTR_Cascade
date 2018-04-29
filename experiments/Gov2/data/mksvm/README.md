@@ -35,3 +35,16 @@ Prox takes 16ms
 load_f_tpscore takes31 ms
 
 Other takes less than 1ms
+
+```
+qid: 701 in prepare takes0 ms
+qid: 701 in BM takes46 ms
+qid: 701 in lmds takes0 ms
+qid: 701 in lmds takes0 ms
+qid: 701 in prob takes0 ms
+qid: 701 in be_dph_dfr takes0 ms
+qid: 701 in stream takes0 ms
+qid: 701 in features takes0 ms
+qid: 701 in prox takes14 ms
+qid: 701 in load_f_tpscore takes29 ms
+```
