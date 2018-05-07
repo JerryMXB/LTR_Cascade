@@ -1,6 +1,6 @@
 # Complex Ranker based on LTR_Cascade Package #
 
-My project is to create a dataset of ranked documnets from a large number of queries which does not have judgements using learning-to-rank technology.
+My project is to create a dataset of ranked documnets from a large number of queries which does not have judgements using learning-to-rank technology. The dataset is ranked using a model trained from LTR_Cascade package. This dataset will later be helpful to evaluate and analysis ranking functions as a good base line. 
 The first step of this project is to:
 - Recreate the Gov2 experiment from LTR_Cascade
 - [Analysis the running time of Gov2 experiment](https://github.com/JerryMXB/LTR_Cascade/blob/master/experiments/Gov2/data/mksvm/README.md)
